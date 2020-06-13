@@ -1,10 +1,14 @@
-spring:
-  profiles:
-    active: @spring.profiles.active@
+#Uncomment for AWS EB deployments
+#spring:
+#  profiles:
+#    active: @spring.profiles.active@
+
+server:
+  port: 8081
 
 app:
   datasource:
-    jdbc-url: jdbc:postgresql://localhost:5432/amigoscodedemo
-    username: postgres
-    password: password
+    jdbc-url: jdbc:postgresql://localhost:5432/<yourdb>
+    username: <yourdbusername>
+    password: <yourdbpassword>
     pool-size: 30

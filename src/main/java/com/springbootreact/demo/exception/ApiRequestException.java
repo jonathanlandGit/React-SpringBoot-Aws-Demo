@@ -1,4 +1,4 @@
-package com.amigoscode.demo.exception;
+package com.springbootreact.demo.exception;
 
 public class ApiRequestException extends RuntimeException {
 

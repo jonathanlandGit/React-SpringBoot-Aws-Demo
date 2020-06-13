@@ -1,4 +1,4 @@
-package com.amigoscode.demo;
+package com.springbootreact.demo;
 
 import org.junit.Test;
 

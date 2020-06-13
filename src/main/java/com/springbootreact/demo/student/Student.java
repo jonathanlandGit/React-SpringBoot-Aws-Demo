@@ -1,4 +1,4 @@
-package com.amigoscode.demo.student;
+package com.springbootreact.demo.student;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
